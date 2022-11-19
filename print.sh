@@ -1,8 +1,5 @@
-a=10
+a=20
 echo $a
-b=20
-echo $b
-readonly b
-b=30
-echo $b
+b=(20 30 40)
+echo ${b[*]}
 
