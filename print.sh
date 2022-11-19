@@ -1,8 +1,7 @@
 echo "Hello World"
 a=10
 echo $a
-echo "thisis the first step to success"
-a=10
-b=20
-echo $a, $b
+echo "this is the first step to success"
+b=(40 50 60)
+echo "${b[2]}"
 
